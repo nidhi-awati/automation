@@ -15,6 +15,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WebDriverManager;
 using WebDriverManager.DriverConfigs.Impl;
+using System.IO;
 
 namespace SeleniumNunitFramework.TestSetup
 {
