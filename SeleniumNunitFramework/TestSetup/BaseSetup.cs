@@ -75,13 +75,13 @@ namespace SeleniumNunitFramework.TestSetup
             {
                 test.Pass("Test Case Passed");
             }
-            extent.Flush();
+            /*extent.Flush();
 
-            if(driver != null)
+           *//* if(driver != null)
             {
 
                 driver.Quit();
-            }
+            }*/
 
         }
 

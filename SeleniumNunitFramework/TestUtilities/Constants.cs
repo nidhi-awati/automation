@@ -8,6 +8,6 @@ namespace SeleniumNunitFramework.TestUtilities
 {
     public class Constants
     {
-        public const int DEFAULT_TIMEOUT = 100;
+        public const int DEFAULT_TIMEOUT = 30000;
     }
 }
