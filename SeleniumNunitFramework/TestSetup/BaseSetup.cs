@@ -55,7 +55,7 @@ namespace SeleniumNunitFramework.TestSetup
             string browser = ConfigurationManager.AppSettings["browser"];
             this.InitBrowser(browser);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(Constants.DEFAULT_TIMEOUT);
-            driver.Url = ConfigurationManager.AppSettings["liveURL"];
+            driver.Url = ConfigurationManager.AppSettings["liveURL"].ToString();
         }
 
 
