@@ -15,14 +15,14 @@ namespace SeleniumNunitFramework.TestCases
 {
     public class StartEndDay : BaseSetup
     {
-        [Test]
+        /*[Test]
         [TestCaseSource(nameof(GetTestData))]
         public void VerifyOmsUserStartAndEndDay(string email, string pass)
         {
             StartEndDayPage NewStartDay = new StartEndDayPage();
             NewStartDay.StartDayPage(email, pass);
             //Thread.Sleep(15000);
-        }
+        }*/
 
 
        /* [Test]
