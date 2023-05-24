@@ -21,7 +21,7 @@ namespace SeleniumNunitFramework.TestCases
         {
             StartEndDayPage NewStartDay = new StartEndDayPage();
             NewStartDay.StartDayPage(email, pass);
-            Thread.Sleep(15000);
+            //Thread.Sleep(15000);
         }
 
 

@@ -26,11 +26,11 @@ namespace SeleniumNunitFramework.PageObject
             BrowserActions.Type(Email, email);
             BrowserActions.Type(Password, pass);
             BrowserActions.Click(LoginButton);
-            Thread.Sleep(15000);
+            //Thread.Sleep(15000);
             BrowserActions.Click(StartDayBtn);
             BrowserActions.Click(StartBtn);
             BrowserActions.Click(CloseBtn);
-            Thread.Sleep(10000);
+            //Thread.Sleep(10000);
             BrowserActions.Click(StopDayBtn);
             BrowserActions.Click(StopBtn);
             BrowserActions.Click(CloseBtn);
