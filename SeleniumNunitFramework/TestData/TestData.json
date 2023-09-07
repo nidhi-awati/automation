@@ -2,7 +2,7 @@
   "SkuQuantity": "10",
   "SkuOne": "2sure Cool Antibacterial Soap 70g X 72",
   "validPackmanID": "PackingL01OR",
-  "validPackmanPassword": "PackingL01OR",
+  "validPackmanPassword": "Omnibiz@123",
   "validHubPackManLogin": "PackingL01bc",
   "validHubPackManPassword": "PackingL01bc",
   "invalidPackmanID": "PackingL01ORR",
@@ -33,5 +33,8 @@
   "validAdminPassword": "taiwodisu",
   "invalidAdminEmail": "ananana@gmaj.com",
   "invalidAdminPassword": "66373737",
-  "OrderId": "2735242"
+  "OrderId": "2735242",
+  "pickid": "SUR_H1-72088",
+  "VanNo": "5",
+  "picklistidprocessed": "SUR_H4-72167"
 }
