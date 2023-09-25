@@ -19,7 +19,14 @@ namespace SeleniumNunitFramework.TestUtilities
         public static void Click(By field) 
         { 
             driver.FindElement(field).Click();
+            
         }
+
+        public static void Clicks(By enter)
+        {
+            driver.FindElement(enter).SendKeys(Keys.Enter);
+        }
+
 
         public static void MouseEvent(By field)
         {
